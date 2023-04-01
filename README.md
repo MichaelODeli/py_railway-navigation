@@ -3,8 +3,8 @@
 [requirements.txt](https://github.com/MichaelODeli/py_railway-navigation/blob/main/requirements.txt)
 ## Необходимые файлы
  * [Список станций](https://github.com/MichaelODeli/railway_materials/blob/main/stations_parcer/RU_stations_new.csv)
- * [Граф соединений станций - простой](https://github.com/MichaelODeli/railway_materials/blob/main/svzd_graph/full_svzd_graph.graphml.zip) (предварительно распакуйте его из архива)
- * [Граф соединений станций - полный](https://github.com/MichaelODeli/railway_materials/blob/main/svzd_graph/simple_svzd_graph.graphml)
+ * [Граф ж/д путей СвЖД - простой](https://github.com/MichaelODeli/railway_materials/blob/main/svzd_graph/full_svzd_graph.graphml.zip) (предварительно распакуйте его из архива)
+ * [Граф ж/д путей СвЖД - полный](https://github.com/MichaelODeli/railway_materials/blob/main/svzd_graph/simple_svzd_graph.graphml)
  * [Соседства станций](https://github.com/MichaelODeli/railway_materials/blob/main/stations_neighbourhood/svzd_sosedi.csv)   
     
  Скачивать оба файла графа соединения станций необязательно - выберите только один (прим. - полный граф использует в 7 раз больше ОЗУ - около 3 Гб на одного клента (будет исправлено в будущей версии))
@@ -13,8 +13,8 @@
 ## Инструкция по использованию
 ### Скачать файлы и поместить в нужные папки
 * [Список станций](https://github.com/MichaelODeli/railway_materials/blob/main/stations_parcer/RU_stations_new.csv) - в подпапку `all_stations` (итоговый путь до файла - `all_stations/RU_stations_new.csv`)
-* [Граф соединений станций - простой](https://github.com/MichaelODeli/railway_materials/blob/main/svzd_graph/full_svzd_graph.graphml.zip) - в корень папки
-* [Граф соединений станций - полный](https://github.com/MichaelODeli/railway_materials/blob/main/svzd_graph/simple_svzd_graph.graphml) - в корень папки
+* [Граф ж/д путей СвЖД - простой](https://github.com/MichaelODeli/railway_materials/blob/main/svzd_graph/full_svzd_graph.graphml.zip) - в корень папки
+* [Граф ж/д путей СвЖД - полный](https://github.com/MichaelODeli/railway_materials/blob/main/svzd_graph/simple_svzd_graph.graphml) - в корень папки
 * [Соседства станций](https://github.com/MichaelODeli/railway_materials/blob/main/stations_neighbourhood/svzd_sosedi.csv) - в подпапку `all_stations` (итоговый путь до файла - `all_stations/svzd_sosedi.csv`)
 ### Настройка проекта
 * Редактирование типа используемого графа   
